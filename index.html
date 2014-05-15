@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>vCard Creator</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+</head>
+<body class="shadow1">
+<br><h2 class="noPrint"> V Card Creator</h2>
+
+<div class="row">
+<div class="span6 noPrint">
+
+<form class="form-horizontal well" action="upload.php" method="post" id="form11">
+<legend><center>Please Provide the Following details</center></legend>
+  <div class="control-group">
+    <label class="control-label" for="inputname">Name</label>
+	<div class="controls">
+      <input type="text" id="inputname" name="name" autocorrect="off" spellcheck="false">
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="inputcname">Company Name</label>
+	<div class="controls">
+      <input type="text" id="inputcname" aautocorrect="off" spellcheck="false">
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="inputdes">Designation</label>
+	<div class="controls">
+      <input type="text" id="inputdes" autocorrect="off" spellcheck="false">
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="inputad1">Address Line 1</label>
+	<div class="controls">
+      <input type="text" id="inputad1" autocorrect="off" spellcheck="false">
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="inputad2">Address Line 2</label>
+	<div class="controls">
+      <input type="text" id="inputad2" autocorrect="off" spellcheck="false">
+    </div>
+  </div>
+  
+  <div class="control-group">
+    <label class="control-label" for="inputph" >Phone #</label>
+	<div class="controls">
+      <input type="text" id="inputph" autocorrect="off" spellcheck="false">
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="inputmb">Mobile #</label>
+	<div class="controls">
+      <input type="text" id="inputmb" autocorrect="off" spellcheck="false">
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="inputE">Email</label>
+	<div class="controls">
+	
+      <input type="text" id="inputE" autocorrect="off" spellcheck="false">
+	 
+    </div>
+  </div>
+  
+   <div class="control-group">
+            <label class="control-label" for="fileInput">Company Logo</label>
+            <div class="controls">
+              <input class="input-file" id="image" name="image" type="file">
+			   
+            </div>
+          </div>
+  
+  </form>
+</div>
+
+
+
+<div class="span6 yesPrint">
+<div class="alert alert-success noPrint">
+  <b>Welcome!</b> Make Your Visiting Card in Just1 Min. Just fill in all the Details,Upload Your Company Logo.Its Quick and Hassle free.
+</div>
+<div class="wellr shadow">
+<div id= "inleft">
+<div id="pic">
+<img src="./img/wall.jpg" width="50" height="50">
+</div>
+<div id="comname">
+<p> Your Company Name</p>
+</div>
+</div>
+
+<div id= "inright">
+<div id="vname">
+<p><b>Your Name</b></p>
+</div>
+<div id="deg">
+CEO
+</div>
+<div id="addres">
+My Address<br>
+Phone No.
+</div>
+</div>
+
+</div>
+<br><br><br><Br><br><br><br><br><br><br><br>
+<center><a class="btn btn-primary btn-large noPrint" value="Print Your VCard" onClick="window.print()"><i class="icon-white icon-print"></i>
+      Print VCard
+    </a></center>
+<br><br><br><Br><br><br><Br><center><a class="noPrint" href="mailto:varundaga2007@gmail.com?Subject=VCard Creator" target="_blank">
+                    Contact
+                  </a></center>
+</div>
+
+</div>
+
+</body>
+
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.form.js"></script>
+<script type="text/javascript" src="js/varun.js"></script>
+<link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
+
+</html>

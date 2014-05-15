@@ -1,0 +1,120 @@
+h2
+{
+text-align : center;
+color:#333;
+font-size:50px;
+font-weight:400;
+margin:1em 0 .5em;
+}
+
+body
+{
+background-color:#F7F7F7;
+background-image:url(../img/wall.png);
+font-family:"Open Sans", sans-serif;
+}
+
+.well {
+background-color:#fdfdfd;
+margin:2em auto;
+margin-left:-50px;
+
+
+}
+.wellr {
+background-color:#fdfdfd;
+width:262px;
+height:150px;
+border:1px dotted;
+float:right; 
+margin-right:20%;
+
+
+}
+
+.rightside {
+margin : 20% auto;
+
+}
+
+#inleft
+{
+float:left;
+width:100px;
+height:100px;
+margin-top:20px;
+padding:5px;
+border-right-style:dotted;
+border-width:1px;
+}
+
+#pic
+{
+max-width:50px;
+max-height:50px;
+padding:5px;
+margin-left:20px;
+
+}
+
+#inright
+{
+float:left;
+padding-left:10px;
+}
+
+#vname
+{
+text-transform:capitalize;
+padding-top:15px;
+letter-spacing:-0.1px;
+font-size:12px;
+font-family:cambria, Times, serif;
+}
+#deg
+{
+
+font-size:10px;
+font-family:cambria, Times, serif;
+margin-top: -9px;
+font-style:italic;
+margin-bottom:2px;
+}
+#addres
+{
+
+font-size:12px;
+font-family:"Times New Roman", Times, serif;
+line-height:12px;
+letter-spacing:0.2px;
+
+
+}
+
+textarea{ resize:none }
+
+#comname
+{
+text-transform:uppercase;
+padding-top:10px;
+letter-spacing:-0.1px;
+font-size:12px;
+font-family:cambria, Times, serif;
+line-height:13px;
+text-align:center;
+font-weight:500;
+}
+
+.shadow {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+.shadow1 {
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+
+
+
