@@ -1,8 +1,15 @@
 vCard Creator - Readme
 Author : Varun Daga
 Email : varundaga2007@gmail.com
-Phone : +91 78295 36905
+
 ----------------------------------------------------------------------------------
+Demo : http://cognit.comoj.com/vcard/
+
+Usage : Enter all your Credentials in the form to Create your Personalised vCard and Use ctrl + P to get the Print.
+
+Technologies Used : PHP ,Twitter Bootstrap , Ajax to Upload the Image Instantly on Selection.
+
+To Do : To Present Multiple Copies of Card on Single Paper , More Design templates option , Use AngularJS 
 
 Installation:
 
