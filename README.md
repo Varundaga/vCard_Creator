@@ -1,6 +1,6 @@
-# Quick vCard Creator
+# Quick vCard Creator ( [Demo] )
 
-It is an Online tool to Design your Business Card very quickly and hassle free.
+It is an Online Application to Design your Business Card very quickly and hassle free.
 
 # Screenshot
 
@@ -12,13 +12,13 @@ Enter all your Credentials in the form to Create your Personalised vCard and Use
 
 # Technologies Used
 
-PHP ,Twitter Bootstrap , Ajax to Upload the Image Instantly.
+PHP ,Twitter Bootstrap ,Jquery , Ajax to Upload the Image Instantly.
 
 # To Do
 
-* To Present Multiple Copies of Card on Single Paper 
+* To Present Multiple Copies of Card on Single Paper while printing.
 * More Design templates option 
-* Use AngularJS 
+* Use AngularJS
 
 # Installation
 
@@ -30,8 +30,9 @@ Thats all !
 
 # License
 
-see MIT-LICENSE
+see MIT-LICENSE , Free Software
 
+[Demo]:http://cognit.comoj.com/vcard/
 
 
 
