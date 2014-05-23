@@ -8,7 +8,7 @@ It is an Online tool to Design your Business Card very quickly and hassle free.
 
 # Usage
 
-Enter all your Credentials in the form to Create your Personalised vCard and Use ctrl + P to get the Print.
+Enter all your Credentials in the form to Create your Personalised vCard and Use Ctrl + P to Print.
 
 # Technologies Used
 
